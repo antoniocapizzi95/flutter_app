@@ -26,7 +26,7 @@ class MyStatelessWidget extends StatelessWidget {
   static void printMessage(){
     print('Shopping cart opened from separated');
     print('Shopping cart is now empty');
-    print('An other message');
+    print('this is an other message');
   }
 
   @override
