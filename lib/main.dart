@@ -24,7 +24,7 @@ class MyStatelessWidget extends StatelessWidget {
   MyStatelessWidget({Key key}) : super(key: key);
 
   static void printMessage(){
-    print('Shopping cart opened from separated function.');
+    print('Shopping cart opened from separated function');
     print('Shopping cart is now empty');
     print('An other message');
   }
