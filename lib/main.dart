@@ -23,6 +23,10 @@ class MyApp extends StatelessWidget {
 class MyStatelessWidget extends StatelessWidget {
   MyStatelessWidget({Key key}) : super(key: key);
 
+  static void printMessage(){
+    print('Shopping cart opened from separated function.');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +38,7 @@ class MyStatelessWidget extends StatelessWidget {
             tooltip: 'Open shopping cart',
             onPressed: () {
               // Implement navigation to shopping cart page here...
-              print('Shopping cart opened.');
+              printMessage();
             },
           ),
         ],
